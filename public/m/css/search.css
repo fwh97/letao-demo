@@ -1,0 +1,89 @@
+.lt_search{
+	width: 100%;
+	padding: 10px;
+	position: relative;
+}
+.lt_search input{
+	width: 100%;
+	height: 30px;
+	border:1px solid #006699;
+	line-height: 28px;
+	background: #fff;
+	text-align: left;
+	font-size: 12px;
+	padding-left: 10px;
+	border-radius: 4px;
+	margin-bottom: 0;
+}
+.lt_search a{
+	width: 60px;
+	height: 30px;
+	background: #006699;
+	position: absolute;
+	color: #fff;
+	right: 10px;
+	top: 10px;
+	border-top-right-radius:4px; 
+	border-bottom-right-radius:4px; 
+	text-align: center;
+	line-height: 30px;
+	font-size: 14px;
+}
+/*排序模块*/
+.lt_order{
+    width: 100%;
+    background: #efeff4;
+    height: 30px;
+}
+.lt_order a{
+    width: 25%;
+    float: left;
+    height: 30px;
+    color: #333;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+}
+.lt_order a.now{
+    color: orange;
+}
+.lt_product{
+	width: 100%;
+	padding: 0 10px;
+}
+.lt_product .pro_itme{
+	float: left;
+	margin-top: 10px;
+	width: 48%;
+}
+.lt_product .pro_itme:nth-child(2n){
+	margin-left: 4%;
+}
+.lt_product .pro_itme .pro_itme_box{
+	width: 100%;
+	display: block;
+	min-height: 200px;
+	box-shadow: 0 0 3px #ddd;
+	text-align: center;
+	padding: 10px 0;
+}
+.lt_product .pro_itme .pro_itme_box img{
+	width: 100%;
+	/*display: block;*/
+}
+.lt_product .pro_itme .pro_itme_box img p:first-of-type{
+	text-align: center;
+}
+.lt_product .pro_itme .pro_itme_box .oldPrice{
+	font-size: 12px;
+	color: #ccc;
+    text-decoration: line-through;
+}
+.lt_product .pro_itme .pro_itme_box .nowPrice{
+	color: red;
+	font-size: 12px;
+}
+.lt_product .pro_itme .pro_itme_box button{
+	background: #006699;
+	color: #fff;
+}
